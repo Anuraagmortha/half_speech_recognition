@@ -64,6 +64,13 @@ The model is trained using the following settings:
 
 The best model is saved using `ModelCheckpoint` and training is monitored with `EarlyStopping` to prevent overfitting.
 
+# Results  
+
+This is the Confusion matrix of the predictions:  
+  
+![image](https://github.com/user-attachments/assets/55db8106-d99a-452e-bcbe-e300ac7d6ca9)  
+
+
 ## Next Steps
 
 1. **Expand Dataset**:
