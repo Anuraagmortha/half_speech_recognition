@@ -34,7 +34,7 @@ The filtered dataset consists of 10 words with 700 samples each, making a total 
 
 ## Model Architecture
 
-The model is a Convolutional Neural Network (CNN) with the following architecture:
+This uses a Sequential model with the following architecture:
   - Convolutional layers with Batch Normalization and MaxPooling.
   - Flatten layer followed by Dense and Dropout layers.
   - The final Dense layer uses a softmax activation function for classification.
